@@ -19,3 +19,5 @@
 ## 9. Confusion matrix 모델별 비교
 
 ## 10. 3차 라벨링 진행 후 학습 진행
+
+## 11. tensorrt 적용
