@@ -8,7 +8,8 @@ Aihub 데이터 사용 : https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&
 
 
 ## 2. 데이터셋 폴더 재구성
-
+총 3차에 걸쳐 진행 
+- 라벨 정리 및 삭제
 ## 3. 데이터 전처리
 
 ## 4. Bbox 가이드라인 설정
