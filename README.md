@@ -23,7 +23,8 @@ Aihub 데이터 사용 : https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&
 8. 속도제한은 20부터 10 간격으로 100까지 구분
 
 ## 5. 이미지 cvat 검수
-
+참고 사이트 : https://www.cvat.ai/
+가이드라인을 바탕으로 일일이 bbox 설정
 ## 6. 1차, 2차 라벨링 진행
 
 ## 7. Yolov5 모델 학습
