@@ -24,14 +24,20 @@ Aihub 데이터 사용 : https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&
 
 ## 5. 이미지 cvat 검수
 참고 사이트 : https://www.cvat.ai/
+
+
 가이드라인을 바탕으로 일일이 bbox 설정
 
 ## 6. 1차, 2차 라벨링 진행
 1차 라벨링 결과 : 다른 라벨에 비해 데이터 개수가 현저히 적은 라벨 삭제
+
+
 2차 라벨링 결과 : 라벨별 편차가 큰 것을 확인
 
 ## 7. Yolov5 모델 학습
 오피셜 yolov5 github 참고
+
+
 yolov5m 모델 학습하여 1epoch당 5-6분 소요
 
 ## 8. 테스트용 인퍼런스 결과 확인
