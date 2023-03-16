@@ -38,7 +38,9 @@ Aihub 데이터 사용 : https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&
 오피셜 yolov5 github 참고
 
 
-yolov5m 모델 학습하여 1epoch당 5-6분 소요
+
+yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
+
 
 ## 8. 테스트용 인퍼런스 결과 확인
 
