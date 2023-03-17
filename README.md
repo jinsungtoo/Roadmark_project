@@ -4,8 +4,10 @@
 
 
 ## 1. 데이터셋 다운로드
-Aihub 데이터 사용 : https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&topMenu=100&aihubDataSe=ty&dataSetSn=654
+Aihub 데이터 사용 
 
+
+https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&topMenu=100&aihubDataSe=ty&dataSetSn=654
 
 ## 2. 데이터셋 폴더 재구성
 총 3차에 걸쳐 진행 
