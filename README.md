@@ -4,7 +4,7 @@
 
 
 ## 1. 데이터셋 다운로드
-Aihub 데이터 사용 
+Aihub "감성 대화 말뭉치" 데이터 사용
 
 
 https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&topMenu=100&aihubDataSe=ty&dataSetSn=654
