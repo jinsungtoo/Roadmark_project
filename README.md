@@ -20,6 +20,7 @@ https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&topMenu=100&aihubDataSe=t
 
 ## 4. Bbox 가이드라인 설정
 ![image](https://user-images.githubusercontent.com/115756142/226249749-6f4f536d-f28d-4fcc-a2ef-b57b39e8ad42.png)
+![image](https://user-images.githubusercontent.com/115756142/226249870-1c6bf9c0-c173-4b2f-b8ed-832279713be3.png)
 
 1. 비보호 좌회전은 비보호만 바운딩 박스
 2. 어린이/노인/장애인 보호구역은 보호구역만 바운딩 박스
@@ -52,8 +53,22 @@ yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
 
 ## 8. 테스트용 인퍼런스 결과 확인
 
-## 9. Confusion matrix 모델별 비교
 
+## 9. Confusion matrix 모델별 비교
+[yolo5s]
+![image](https://user-images.githubusercontent.com/115756142/226250378-dcb5a455-80c1-4e5a-a4c8-74a8e9bf7242.png)
+
+
+[yolov5m]
+![image](https://user-images.githubusercontent.com/115756142/226250501-349447a6-71c2-4d5c-b4b8-62b764a66d56.png)
+
+
+[yolov5l]
+![image](https://user-images.githubusercontent.com/115756142/226250556-94d34b52-d681-44e9-b013-424948799dcd.png)
+
+
+[yolov5x]
+![image](https://user-images.githubusercontent.com/115756142/226250612-02de8bd5-c686-4006-bdd0-6f6f5f2114de.png)
 ## 10. tensorrt 적용
 
 ## 11. 3차 라벨링 진행 후 학습 진행
