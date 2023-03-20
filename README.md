@@ -61,7 +61,7 @@ yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
 
 ## 13. 알림 메시지 서비스 구현
 GUI 내 bbox 안에 신호가 감지될 시 텍스트로 띄우도록 구현
-
+![image](https://user-images.githubusercontent.com/115756142/226235412-63982089-3da3-43b9-ba51-b0f47d7ddd3a.png)
 ## 14. 진행 중 이슈사항
 1) CVAT 작업 시 이미지 업로드 양이 많고 사이즈가 커서 한번에 안올라가는 오류가 발생-> task를 여러개로 나눠 진행
 
