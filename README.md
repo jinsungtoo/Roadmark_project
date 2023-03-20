@@ -19,6 +19,8 @@ https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&topMenu=100&aihubDataSe=t
 
 
 ## 4. Bbox 가이드라인 설정
+![image](https://user-images.githubusercontent.com/115756142/226249749-6f4f536d-f28d-4fcc-a2ef-b57b39e8ad42.png)
+
 1. 비보호 좌회전은 비보호만 바운딩 박스
 2. 어린이/노인/장애인 보호구역은 보호구역만 바운딩 박스
 3. 횡단보도, 과속방지턱은 각 차선마다 따로 바운딩 박스
