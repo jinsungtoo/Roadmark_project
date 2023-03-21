@@ -4,10 +4,11 @@
 
 
 ## 1. 데이터셋 다운로드
-Aihub "감성 대화 말뭉치" 데이터 사용
+Aihub "도로 로드마크 인식을 위한 주행 영상 데이터" 사용
 
 
 https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&topMenu=100&aihubDataSe=ty&dataSetSn=654
+
 
 ## 2. 목적
 아직까지도 도로 위 사건사고는 끊임없이 발생하고 있다. 이를 조금이라도 방지하고자 본 프로젝트에서는 주행 영상 데이터를 이용하여 로드마크를 인식하고 문제가 발생했을 시 경고나 알림음을 활용하여 운전에 대한 경각심을 일으킨다. 이 프로젝트를 통해서 운전 규칙을 준수하고 더 나은 교통관리에 도움이 되도록 한다
@@ -19,7 +20,7 @@ https://aihub.or.kr/aihubdata/data/view.docurrMenu=116&topMenu=100&aihubDataSe=t
 
 
 ## 4. Bbox 가이드라인 설정
-![image](https://user-images.githubusercontent.com/115756142/226249749-6f4f536d-f28d-4fcc-a2ef-b57b39e8ad42.png)
+![image](https://user-images.githubusercontent.com/115756142/226498643-ed54ee65-5c2a-46a4-8b4d-96fa909ca8ee.png)
 ![image](https://user-images.githubusercontent.com/115756142/226249870-1c6bf9c0-c173-4b2f-b8ed-832279713be3.png)
 
 1. 비보호 좌회전은 비보호만 바운딩 박스
