@@ -45,14 +45,18 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=
 2차 라벨링 결과 : 라벨별 편차가 큰 것을 확인
 
 ## 7. Yolov5 모델 학습
-오피셜 yolov5 github 참고
+오피셜 yolov5 github 참고 URL
 
+    https://github.com/ultralytics/yolov5
 
 
 yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
 
 
 ## 8. 테스트용 인퍼런스 결과 확인
+각각 yolov5s, m, l, x 총 4가지 모델을 사용해 본 결과 높은 정확도와 다른 모델에 비해 가벼운 s모델로 채택.
+![image](https://user-images.githubusercontent.com/115756142/226787697-0bf279aa-a588-42e1-b935-ff1ce396d7dd.png)
+
 
 학습 모델 : yolov5m
 이미지 사이즈 : 640
@@ -63,19 +67,24 @@ yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
 
 ## 9. Confusion matrix 모델별 비교
 [yolo5s]
-![image](https://user-images.githubusercontent.com/115756142/226250378-dcb5a455-80c1-4e5a-a4c8-74a8e9bf7242.png)
 
+<img src="https://user-images.githubusercontent.com/115756142/226250378-dcb5a455-80c1-4e5a-a4c8-74a8e9bf7242.png" height="400"/>
 
+***
 [yolov5m]
-![image](https://user-images.githubusercontent.com/115756142/226250501-349447a6-71c2-4d5c-b4b8-62b764a66d56.png)
 
+<img src="https://user-images.githubusercontent.com/115756142/226250501-349447a6-71c2-4d5c-b4b8-62b764a66d56.png" height="400"/>
 
+***
 [yolov5l]
-![image](https://user-images.githubusercontent.com/115756142/226250556-94d34b52-d681-44e9-b013-424948799dcd.png)
 
+<img src="https://user-images.githubusercontent.com/115756142/226250556-94d34b52-d681-44e9-b013-424948799dcd.png" height="400"/>
 
+***
 [yolov5x]
-![image](https://user-images.githubusercontent.com/115756142/226250612-02de8bd5-c686-4006-bdd0-6f6f5f2114de.png)
+
+<img src="https://user-images.githubusercontent.com/115756142/226250612-02de8bd5-c686-4006-bdd0-6f6f5f2114de.png" height="400"/>
+
 ## 10. tensorrt 적용
 
 ## 11. 3차 라벨링 진행 후 학습 진행
