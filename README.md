@@ -14,9 +14,9 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=
 아직까지도 도로 위 사건사고는 끊임없이 발생하고 있다. 이를 조금이라도 방지하고자 본 프로젝트에서는 주행 영상 데이터를 이용하여 로드마크를 인식하고 문제가 발생했을 시 경고나 알림음을 활용하여 운전에 대한 경각심을 일으킨다. 이 프로젝트를 통해서 운전 규칙을 준수하고 더 나은 교통관리에 도움이 되도록 한다
 
 ## 3. 데이터셋 폴더 재구성
-총 3차에 걸쳐 진행 
+> 총 3차에 걸쳐 진행 
 - 라벨 정리 및 삭제
-![image](https://user-images.githubusercontent.com/115756142/226233612-e329f11e-d029-4284-b05b-867028f49e2b.png)
+<img src="https://user-images.githubusercontent.com/115756142/226233612-e329f11e-d029-4284-b05b-867028f49e2b.png" height="400"/>
 
 
 ## 4. Bbox 가이드라인 설정
