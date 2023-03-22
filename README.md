@@ -23,17 +23,19 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=
 ![image](https://user-images.githubusercontent.com/115756142/226498643-ed54ee65-5c2a-46a4-8b4d-96fa909ca8ee.png)
 ![image](https://user-images.githubusercontent.com/115756142/226249870-1c6bf9c0-c173-4b2f-b8ed-832279713be3.png)
 
-1. 비보호 좌회전은 비보호만 바운딩 박스
-2. 어린이/노인/장애인 보호구역은 보호구역만 바운딩 박스
-3. 횡단보도, 과속방지턱은 각 차선마다 따로 바운딩 박스
-4. 운전자와 같은 방향의 도로 표시만 라벨링. (역주행 차선 x)
-5. 바운딩 박스로 표시하기 어려운 차선류 제외
-6. 라벨링 편의성을 위하여 금지 화살표, 비보호 제외한 모든 화살표는 제외
-7. 운전자 차선과 같은 방향의 차선의 도로 표시만 라벨링
-8. 속도제한은 20부터 10 간격으로 100까지 구분
+1. 비보호 좌회전은 __비보호__ 바운딩 박스
+2. 어린이/노인/장애인 보호구역은 __보호구역__ 바운딩 박스
+3. 횡단보도, 과속방지턱은 __각 차선마다 따로__ 바운딩 박스
+4. 운전자와 __같은 방향의 도로 표시만__ 라벨링 (역주행 차선은 라벨링 x)
+5. 바운딩 박스로 __표시하기 어려운 차선류 제외__
+6. 라벨링 편의성을 위하여 __금지 화살표, 비보호 제외한 모든 화살표는 제외__
+7. 운전자 차선과 __같은 방향의 차선의 도로 표시만__ 라벨링
+8. 속도제한은 __20부터 10 간격으로 100까지__ 구분
 
 ## 5. 이미지 cvat 검수
-참고 사이트 : https://www.cvat.ai/
+> 참고 사이트 URL
+
+    https://www.cvat.ai/
 
 
 가이드라인을 바탕으로 일일이 bbox 설정
@@ -45,7 +47,7 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=
 2차 라벨링 결과 : 라벨별 편차가 큰 것을 확인
 
 ## 7. Yolov5 모델 학습
-오피셜 yolov5 github 참고 URL
+> 오피셜 yolov5 github 참고 URL
 
     https://github.com/ultralytics/yolov5
 
@@ -86,6 +88,31 @@ yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
 <img src="https://user-images.githubusercontent.com/115756142/226250612-02de8bd5-c686-4006-bdd0-6f6f5f2114de.png" height="400"/>
 
 ## 10. tensorrt 적용
+> Tensorrt란?
+
+    학습된 딥러닝 모델을 최적화하여 NVIDIA GPU 상에서의 추론 속도를 수배 ~ 수십배 까지
+    
+    향상시켜 딥러닝 서비스를 개선하는데 도움을 줄 수 있는 모델 최적화 엔진
+
+>> Tensorrt를 사용하기 위해선 pip install nvidia-pyindex와 pip install nvidia-tensorrt 설치해야 하는데 윈도우 환경에서는 알 수 없는 오류로 사용이 불가능하다.
+>> 때문에 다음과 같은 방법으로 문제를 해결하였다.
+1. 설치
+    
+    tensorRT 홈페이지에 들어가 환경에 맞는 zip 파일을 다운로드 받는다
+
+
+2. 환경변수 설정
+    
+    lib 폴더의 위치를 환경변수에 추가한다
+
+
+3. 라이브러리 설치
+    
+    1)파이썬 버전과 TensorRT가 설치된 버전과 경로에 맞추어 라이브러리를 설치
+    
+    2)파이토치를 버전에 맞게 재설치
+![image](https://user-images.githubusercontent.com/115756142/226790402-47185811-782a-4737-96f9-8338d865bdb4.png)
+
 
 ## 11. 3차 라벨링 진행 후 학습 진행
 1) 서행, 속도제한20 등 이미지 수가 적은 라벨은 아예 삭제. (21종류 라벨 -> 18종류 라벨)
