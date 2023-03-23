@@ -6,8 +6,7 @@
 ## 1. 데이터셋 다운로드
 Aihub "도로 로드마크 인식을 위한 주행 영상 데이터" 사용
 
-
-https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=654
+    https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=654
 
 
 ## 2. 목적
