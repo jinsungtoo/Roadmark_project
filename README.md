@@ -55,7 +55,7 @@ yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
 
 
 ## 8. 테스트용 인퍼런스 결과 확인
-각각 yolov5s, m, l, x 총 4가지 모델을 사용해 본 결과 높은 정확도와 다른 모델에 비해 가벼운 s모델로 채택.
+> 각각 yolov5s, m, l, x 총 4가지 모델을 사용해 본 결과 높은 정확도와 다른 모델에 비해 가벼운 s모델로 채택.
 ![image](https://user-images.githubusercontent.com/115756142/226787697-0bf279aa-a588-42e1-b935-ff1ce396d7dd.png)
 
 
@@ -108,8 +108,8 @@ yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
 3. 라이브러리 설치
     
     1)파이썬 버전과 TensorRT가 설치된 버전과 경로에 맞추어 라이브러리를 설치
-    
     2)파이토치를 버전에 맞게 재설치
+    
     
 ![image](https://user-images.githubusercontent.com/115756142/226790402-47185811-782a-4737-96f9-8338d865bdb4.png)
 
@@ -123,10 +123,12 @@ yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
 
 ## 12. 차선 인식 
 > 차선 인식 대신, bbox를 설정하여 그 안에 신호가 들어오게 되면 서비스 하는 방식으로 결정
+
 ![image](https://user-images.githubusercontent.com/115756142/226253852-b2f0b377-5fc4-4e1e-aa2c-ba8654fa0917.png)
 
 ## 13. 알림 메시지 서비스 구현
 > GUI 내 bbox 안에 신호가 감지될 시 텍스트로 띄우도록 구현
+
 ![test](https://user-images.githubusercontent.com/115756142/226246444-bb467a0d-c9ae-4393-918f-9d4126bd1a99.gif)
 
 
@@ -144,4 +146,4 @@ yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
 4) GUI에서 프레임이 너무 낮게 나와서 속도 체크를 우선 진행 -> 파이토치 버전을 업그레이드 하여 프레임 속도 해결 (15 FPS -> 30 FPS)
 
 
-5) GUI 프레임을 더 높이기 위해 tensorrt를 알아보는 중
+5) GUI 프레임을 더 높이기 위해 tensorrt를 추가하여 평균 40 FPS 이상으로 끌어올림
