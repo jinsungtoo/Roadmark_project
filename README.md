@@ -112,7 +112,7 @@ yolov5m 모델 학습하여 1epoch당 5-6분 소요(총 100 epoch)
     2)파이토치를 버전에 맞게 재설치
     
     
-![image](https://user-images.githubusercontent.com/115756142/226790402-47185811-782a-4737-96f9-8338d865bdb4.png)
+    ![image](https://user-images.githubusercontent.com/115756142/226790402-47185811-782a-4737-96f9-8338d865bdb4.png)
 
 
 ## 11. 3차 라벨링 진행 후 학습 진행
